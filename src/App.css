@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+  @apply bg-base-200 text-base-content;
+}
+
+.header {
+  @apply bg-base-100 shadow-md;
+}
+
+.sidebar {
+  @apply bg-base-100 w-64 h-full shadow-lg;
+}
+
+.footer {
+  @apply bg-base-100 text-center p-4;
+}
